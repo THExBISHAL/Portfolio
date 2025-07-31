@@ -64,7 +64,7 @@ function Footer() {
           hour12: true,
         });
 
-        const res = await fetch("http://localhost:5000/visitor", {
+        const res = await fetch("https://portfolio-backend-lz5d.onrender.com/visitor", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
