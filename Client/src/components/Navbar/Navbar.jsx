@@ -64,7 +64,7 @@ function Navbar() {
       <div className="md:hidden">
         <Sheet>
           <SheetTrigger>
-            <MdMenu size={30} />
+            <MdMenu size={30} className="text-gray-300" />
           </SheetTrigger>
           <SheetContent className="bg-blue-900 p-6">
             <SheetHeader />
