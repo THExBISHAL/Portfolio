@@ -9,8 +9,8 @@ function ProjectSection() {
       description:
         "Blogify is a full-stack blog app built with the MERN stack (MongoDB, Express.js, React, Node.js). It includes JWT-based authentication, allowing users to create, update, and delete their own posts, as well as comment on others' posts. With a clean UI and secure API structure, it showcases my skills in full-stack development and user access control.",
       tags: ["React", "Express", "Node.js", "MongoDB"],
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://blog-app-qx03.onrender.com",
+      githubUrl: "https://github.com/THExBISHAL/Blog-App",
     },
     {
       id: 2,
