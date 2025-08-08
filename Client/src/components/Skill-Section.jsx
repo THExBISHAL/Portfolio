@@ -8,12 +8,12 @@ function SkillSection() {
     { name: "HTML", level: 90, category: "frontend" },
     { name: "CSS", level: 90, category: "frontend" },
     { name: "JavaScript", level: 80, category: "frontend" },
-    { name: "React", level: 75, category: "frontend" },
-    { name: "Tailwind CSS", level: 80, category: "frontend" },
+    { name: "React", level: 85, category: "frontend" },
+    { name: "Tailwind CSS", level: 85, category: "frontend" },
 
-    { name: "Node.js", level: 70, category: "backend" },
-    { name: "Express", level: 70, category: "backend" },
-    { name: "MongoDB", level: 70, category: "backend" },
+    { name: "Node.js", level: 80, category: "backend" },
+    { name: "Express", level: 75, category: "backend" },
+    { name: "MongoDB", level: 80, category: "backend" },
 
     { name: "Git/GitHub", level: 80, category: "tools" },
     { name: "VS Code", level: 95, category: "tools" },
@@ -37,11 +37,11 @@ function SkillSection() {
         <h2 className="font-bold text-3xl text-center md:text-left mb-4 md:mb-0">
           <span className="text-yellow-700">My </span>Skills
         </h2>
-        <div className="hover:scale-105">
+        <div className="hover:scale-105 duration-300 ease-in-out">
           <a
-            href="#"
+            href="/Bishal_Chakraborty_CV.pdf"
             target="_blank"
-            className="text-base font-medium bg-yellow-800 hover:bg-yellow-700 transition-colors px-4 py-2 rounded-lg text-gray-200 shadow-md "
+            className="text-base font-medium bg-yellow-800 hover:bg-yellow-700 transition-colors  px-4 py-2 rounded-lg text-gray-200 shadow-md "
           >
             View Resume
           </a>

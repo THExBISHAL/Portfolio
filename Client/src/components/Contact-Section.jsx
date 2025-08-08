@@ -3,6 +3,7 @@ import { IoCallSharp } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import { Send } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 function ContactSection() {
   return (
@@ -66,7 +67,7 @@ function ContactSection() {
                 </h4>
                 <div className="flex space-x-4 mt-5 gap-3">
                   <a
-                    href="https://www.linkedin.com/in/bishal-chakraborty-6081342a6"
+                    href="https://www.linkedin.com/in/thexbishal/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-yellow-500"
@@ -88,6 +89,14 @@ function ContactSection() {
                     className="hover:text-yellow-500"
                   >
                     <FaInstagram size={20} />
+                  </a>
+                  <a
+                    href="https://github.com/THExBISHAL"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-500"
+                  >
+                    <FaGithub size={20} />
                   </a>
                 </div>
               </div>
